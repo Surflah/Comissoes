@@ -1,0 +1,11 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.env.*.local
+data/comissoes.db
+data/comissoes.db-shm
+data/comissoes.db-wal
+.DS_Store
+*.log

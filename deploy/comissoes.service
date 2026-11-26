@@ -1,0 +1,16 @@
+[Unit]
+Description=Controle de Projetos nas Comissoes - Camara Municipal de Itapoa (Next.js)
+After=network.target
+
+[Service]
+Type=simple
+User=ticamitp
+WorkingDirectory=/var/www/comissoes
+Environment=NODE_ENV=production
+Environment=PORT=3008
+ExecStart=/usr/bin/npm run start
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

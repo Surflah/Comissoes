@@ -1,0 +1,27 @@
+{
+  "name": "comissoes-camara-itapoa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Controle de Projetos nas Comissões — Câmara Municipal de Itapoá-SC",
+  "scripts": {
+    "dev": "next dev --port 3008",
+    "build": "next build",
+    "start": "next start --port 3008",
+    "lint": "next lint",
+    "admin:senha": "tsx scripts/set-admin-password.ts",
+    "sapl:sync": "tsx scripts/run-sync.ts"
+  },
+  "dependencies": {
+    "next": "^15.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.8",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}
